@@ -1,0 +1,57 @@
+<style>
+  body, .t-body, .t-cover, .t900, .t-cover__carrier {
+    background-color: #0a0a0a !important;
+    font-family: 'Inter', 'Montserrat', sans-serif;
+    color: #ffffff;
+  }
+
+  /* Зелёное свечение для заголовка */
+  h1 {
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(57,255,20,0.6), 0 0 40px rgba(57,255,20,0.3);
+    letter-spacing: 2px;
+  }
+
+  /* Кнопки */
+  .crow-btn {
+    display: inline-block;
+    padding: 14px 36px;
+    border: 2px solid #39FF14;
+    color: #39FF14;
+    background: transparent;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+  }
+  .crow-btn:hover {
+    background: #39FF14;
+    color: #0a0a0a;
+    box-shadow: 0 0 25px rgba(57,255,20,0.9);
+  }
+
+  /* Неактивная кнопка "Скачать" */
+  .crow-btn.disabled {
+    border-color: #444;
+    color: #666;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  /* Карточки скриптов */
+  .crow-card {
+    background: rgba(17,17,17,0.85);
+    border: 1px solid rgba(57,255,20,0.25);
+    border-radius: 12px;
+    padding: 30px;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+  }
+  .crow-card:hover {
+    border-color: #39FF14;
+    box-shadow: 0 0 30px rgba(57,255,20,0.4);
+    transform: translateY(-5px);
+  }
+</style>
